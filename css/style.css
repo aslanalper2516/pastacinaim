@@ -1,0 +1,29 @@
+:root {
+    --kahve: #3D2715;
+    --krem: #EBC685;
+    --beyaz: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Stili */
+.navbar {
+    background-color: var(--beyaz);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+/* ... diğer genel stiller ... */ 
